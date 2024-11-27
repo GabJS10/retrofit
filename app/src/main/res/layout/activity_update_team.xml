@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="50dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update team"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#333333"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/et_name_team_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="text"
+            android:backgroundTint="#4CAF50"
+            android:padding="12dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/et_coach_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Coach"
+            android:inputType="text"
+            android:backgroundTint="#4CAF50"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/et_city_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City"
+            android:inputType="text"
+            android:backgroundTint="#4CAF50"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/et_found_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="2023-07-10T15:00:00.000Z"
+            android:inputType="text"
+            android:backgroundTint="#4CAF50"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/et_image_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="url"
+            android:inputType="text"
+            android:backgroundTint="#4CAF50"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+
+        <Button
+            android:id="@+id/btn_update_team"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_error"
+            android:text=""
+            android:textSize="12sp"
+            android:layout_gravity="center"
+            android:textColor="#FF0000"
+            android:layout_marginTop="8dp"
+            />
+
+    </LinearLayout>
+</ScrollView>
